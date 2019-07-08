@@ -17,6 +17,6 @@ end
       [2,4,6]#second_diagnols 
     ]
  def won?(board){
-   
+   isEmpty = board.include
  
 }
