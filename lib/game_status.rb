@@ -71,6 +71,14 @@ end
       return false
     end
     
+    def over?(board)
+      isWon = won?(board)
+      isFull = full?(board)
+      if isFull == true || isWon == true
+        return true
+      end
+    end
+    
   end
  
 
