@@ -72,7 +72,14 @@ end
     end
     
 def over?(board)
-   i
+   isWon_Over = won?(board)
+   isFull_Over = full?(board)
+   isDraw_Over = draw?(board)
+   if isWon_Over == true || isFull_Over == true || isDraw_Over == true
+     return true
+   else
+     return false
+   end
 end
  
 
