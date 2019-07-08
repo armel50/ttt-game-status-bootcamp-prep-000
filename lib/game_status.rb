@@ -13,9 +13,9 @@ def won(board){
     
           [0,1,2],#top_row_win  
  [3,4,5],  #middle_row_win
-  #bottom_row_win  [6,7,8],
+  [6,7,8],  #bottom_row_win
   
-  #vertical win
+
   
   #vertical_left  [0,3,6],
   #vertical_middle [1,4,7],
