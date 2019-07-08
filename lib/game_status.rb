@@ -19,9 +19,9 @@ def won(board){
   
    [0,3,6],#vertical_left 
  [1,4,7],  #vertical_middle
-  #vertical_right =[2,5,8],
+  [2,5,8], #vertical_right
   
-  #diagnols
+  
   #first_diagnols [0,4,8],
   #second_diagnols  [2,4,6],
     
