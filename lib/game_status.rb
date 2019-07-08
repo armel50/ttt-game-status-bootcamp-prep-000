@@ -24,6 +24,7 @@ end
      
    else
      WIN_COMBINATIONS.each do |win| 
+       puts "#{win}"
      end
      
      
