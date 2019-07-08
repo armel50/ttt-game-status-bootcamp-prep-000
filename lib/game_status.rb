@@ -23,8 +23,8 @@ end
      return false
      
    else
-     WIN_COMBINATIONS.each do |win| 
-       
+    if board[WIN_COMBINATIONS[0][0]]== "X" && board[WIN_COMBINATIONS[]
+      
      end
      
      
