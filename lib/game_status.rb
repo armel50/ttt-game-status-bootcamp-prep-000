@@ -25,21 +25,36 @@ end
    else
      
     if board[WIN_COMBINATIONS[0][0]]== "X" && board[WIN_COMBINATIONS[0][1]]== "X" && board[WIN_COMBINATIONS[0][2]]=="X"
+      
       return WIN_COMBINATIONS[0].to_a
+      
     elsif board[WIN_COMBINATIONS[1][0]]== "X" && board[WIN_COMBINATIONS[1][1]]== "X" && board[WIN_COMBINATIONS[1][2]]=="X"
-      return WIN_COMBINATIONS[1] 
+    
+      return WIN_COMBINATIONS[1].to_a
+      
      elsif board[WIN_COMBINATIONS[2][0]]== "X" && board[WIN_COMBINATIONS[2][1]]== "X" && board[WIN_COMBINATIONS[2][2]]=="X"
-     return WIN_COMBINATIONS[2]
+     
+     return WIN_COMBINATIONS[2].to_a
+     
       elsif board[WIN_COMBINATIONS[3][0]]== "X" && board[WIN_COMBINATIONS[3][1]]== "X" && board[WIN_COMBINATIONS[3][2]]=="X"
-      return WIN_COMBINATIONS[3]
+      
+      return WIN_COMBINATIONS[3].to_a
+      
        elsif board[WIN_COMBINATIONS[4][0]]== "X" && board[WIN_COMBINATIONS[4][1]]== "X" && board[WIN_COMBINATIONS[4][2]]=="X"
-       return WIN_COMBINATIONS[4]
+       
+       return WIN_COMBINATIONS[4].to_a
+       
         elsif board[WIN_COMBINATIONS[5][0]]== "X" && board[WIN_COMBINATIONS[5][1]]== "X" && board[WIN_COMBINATIONS[5][2]]=="X"
-        return WIN_COMBINATIONS[5]
+        
+        return WIN_COMBINATIONS[5].to_a
+        
          elsif board[WIN_COMBINATIONS[6][0]]== "X" && board[WIN_COMBINATIONS[6][1]]== "X" && board[WIN_COMBINATIONS[6][2]]=="X"
-         return WIN_COMBINATIONS[6]
+         
+         return WIN_COMBINATIONS[6].to_a
+         
           elsif board[WIN_COMBINATIONS[7][0]]== "X" && board[WIN_COMBINATIONS[7][1]]== "X" && board[WIN_COMBINATIONS[7][2]]=="X"
-          return WIN_COMBINATIONS[7]
+          
+          return WIN_COMBINATIONS[7].to_a
          else 
            return false
      end
