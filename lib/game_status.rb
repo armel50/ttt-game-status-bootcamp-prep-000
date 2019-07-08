@@ -86,7 +86,10 @@ def over?(board)
 end
 
 def winner?(board)
-  isW
+  isWon_winner = won?(board)
+  if isWon_winner != false 
+    return isWon_winner
+  end
 end
  
 
