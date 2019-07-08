@@ -11,7 +11,7 @@ def won(board){
   
   WIN_COMBINATIONS = [
     
-          #top_row_win  [0,1,2],
+          [0,1,2],#top_row_win  
   #middle_row_win [3,4,5],
   #bottom_row_win  [6,7,8],
   
