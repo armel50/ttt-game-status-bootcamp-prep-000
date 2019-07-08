@@ -22,7 +22,7 @@ def won(board){
   [2,5,8], #vertical_right
   
   
-  #first_diagnols [0,4,8],
+ [0,4,8], #first_diagnols 
   #second_diagnols  [2,4,6],
     
     ]
