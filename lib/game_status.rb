@@ -71,7 +71,7 @@ end
       return false
     end
     
-def over?(board)
+def over(board)
    isWon_Over = won?(board)
    isFull_Over = full?(board)
    isDraw_Over = draw?(board)
