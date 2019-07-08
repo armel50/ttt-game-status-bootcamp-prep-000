@@ -23,7 +23,9 @@ end
      return false
      
    else
-    if board[WIN_COMBINATIONS[0][0]]== "X" && board[WIN_COMBINATIONS[]
+    if board[WIN_COMBINATIONS[0][0]]== "X" && board[WIN_COMBINATIONS[0][1]]== "X" && board[WIN_COMBINATIONS[0][2]]=="X"
+      return true 
+    elsif board[WIN_COMBINATIONS[0][0]]== "X" && board[WIN_COMBINATIONS[0][1]]== "X" && board[WIN_COMBINATIONS[0][2]]=="X"
       
      end
      
