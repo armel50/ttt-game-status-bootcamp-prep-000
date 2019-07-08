@@ -20,4 +20,6 @@ def won(board){
   #diagnols
   first_diagnols = [0,4,8]
   second_diagnols = [2,4,6]
+  
+  while
 }
