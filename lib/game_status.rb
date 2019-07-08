@@ -14,7 +14,7 @@ end
       [1,4,7],  #vertical_middle
       [2,5,8], #vertical_right
       [0,4,8], #first_diagnols 
-      [2,4,6],#second_diagnols 
+      [2,4,6]#second_diagnols 
     ]
 def won(board){
   
