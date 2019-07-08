@@ -88,7 +88,7 @@ end
 def winner(board)
   isWon_winner = won?(board)
   if isWon_winner != false 
-    return isWon_winner
+    return board[isWon_winner[0]]
   end
 end
  
