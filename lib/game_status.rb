@@ -6,7 +6,7 @@ end
 # Define your WIN_COMBINATIONS constant
 
 def won(board){
-  # row win
+  
   
   
   WIN_COMBINATIONS = [
