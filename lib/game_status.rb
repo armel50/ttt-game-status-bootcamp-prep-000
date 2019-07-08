@@ -72,7 +72,7 @@ end
     end
     
 def over?(board)
-  puts "lol"
+   i
 end
  
 
