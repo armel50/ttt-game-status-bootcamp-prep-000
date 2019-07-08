@@ -18,6 +18,13 @@ end
     ]
  def won?(board){
    contains_X = board.include?("X")
-   contains_O = board.include?
+   contains_O = board.include?("O")
+   if contains_O == false && contains_X == false 
+     return false
+     
+   else
+     
+     
+   end
  
 }
