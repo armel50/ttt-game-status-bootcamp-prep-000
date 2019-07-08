@@ -23,7 +23,7 @@ end
      return false
      
    else
-     WIN_COMBINATIONS.each |win| do
+     WIN_COMBINATIONS.each do|win| 
      end
      
      
