@@ -16,7 +16,7 @@ end
       [0,4,8], #first_diagnols 
       [2,4,6]#second_diagnols 
     ]
- def won?(board){
+ def won?(board)
    contains_X = board.include?("X")
    contains_O = board.include?("O")
    if contains_O == false && contains_X == false 
@@ -46,5 +46,5 @@ end
      
    end
  
-}
+
 won?(["X ", " ", " ", " ", " ", " ", " ", " ", " "])
