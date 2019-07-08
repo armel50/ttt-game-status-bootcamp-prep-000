@@ -26,7 +26,7 @@ end
      
      return WIN_COMBINATIONS[2]
      
-      elsif board[WIN_COMBINATIONS[3][0]]== "X" && board[WIN_COMBINATIONS[3][1]]== "X" && board[WIN_COMBINATIONS[3][2]]=="X"
+      elsif (board[WIN_COMBINATIONS[3][0]]== "X" && board[WIN_COMBINATIONS[3][1]]== "X" && board[WIN_COMBINATIONS[3][2]]=="X") || (board[WIN_COMBINATIONS[3][0]]== "O" && board[WIN_COMBINATIONS[3][1]]== "O" && board[WIN_COMBINATIONS[3][2]]=="O")
       
       return WIN_COMBINATIONS[3]
       
