@@ -16,9 +16,9 @@ end
       [0,4,8], #first_diagnols 
       [2,4,6]#second_diagnols 
     ]
-def won(board){
+# def won(board){
   
   
   
  
-}
+# }
